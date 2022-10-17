@@ -26,7 +26,7 @@ export default function BizCard({ funFunction }: BizCardProps) {
         rounded={'lg'}
         p={6}
         textAlign={'center'}>
-        <Heading mt={4} fontSize={'3xl'} fontWeight='black'>
+        <Heading mt={4} fontSize={{base: 'lg', md:'3xl'}} fontWeight='black'>
           Assorted Technologies Inc.
         </Heading>
         <Text fontWeight={600} color={'gray.500'} mb={4}>
