@@ -46,7 +46,7 @@ export default function BizCard({ funFunction }: BizCardProps) {
 
 
         <Box mt={6}>
-          <Text fontWeight={500} color='gray.800' mb={2}>Speacialties:</Text>
+          <Text fontWeight={500} color='gray.800' mb={2}>Specialties:</Text>
           <Stack align={'center'} justify={'center'} wrap='wrap'>
             <Badge
               px={2}
