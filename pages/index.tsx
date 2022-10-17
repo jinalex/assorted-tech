@@ -129,7 +129,7 @@ const Home: NextPage = () => {
         <Stack
           align={'center'}
           spacing={{ base: 8, md: 10 }}
-          py={{ base: 20, md: 28 }}
+          py={{ base: 10, md: 28 }}
           direction='column'>
           <BizCard funFunction={() => {setMoreBalls(moreBalls + 1)}} />
         </Stack>

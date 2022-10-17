@@ -46,21 +46,19 @@ export default function BizCard({ funFunction }: BizCardProps) {
 
 
         <Box mt={6}>
-          <Text fontWeight={500} color='gray.800'>Speacialties:</Text>
-          <Stack align={'center'} justify={'center'} direction={'row'} wrap='wrap' spacing={1}>
+          <Text fontWeight={500} color='gray.800' mb={2}>Speacialties:</Text>
+          <Stack align={'center'} justify={'center'} wrap='wrap'>
             <Badge
               px={2}
               py={1}
-              my={1}
               bg={useColorModeValue('blue.50', 'blue.800')}
               color={'blue.800'}
               fontWeight={'500'}>
-              Content Audit
+              Content Strategy
             </Badge>
             <Badge
               px={2}
               py={1}
-              my={1}
               bg={useColorModeValue('blue.50', 'blue.800')}
               color={'blue.800'}
               fontWeight={'500'}>
@@ -69,7 +67,6 @@ export default function BizCard({ funFunction }: BizCardProps) {
             <Badge
               px={2}
               py={1}
-              my={1}
               bg={useColorModeValue('blue.50', 'blue.800')}
               color={'blue.800'}
               fontWeight={'500'}>
