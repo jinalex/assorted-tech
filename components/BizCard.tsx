@@ -89,7 +89,7 @@ export default function BizCard({ funFunction }: BizCardProps) {
           </Button> */}
             <Button
               as='a'
-              href={useBreakpointValue({base: 'sms:+14152739479&body=Hello, I\'m looking for help with...', md: 'mailto:hello@assortedtech.xyz?subject=Work inquiry&body=Hello,'})} target='_blank' textDecoration='none'
+              href={useBreakpointValue({base: 'sms:+14152739479&body=Hello, I\'m looking for help with...', md: 'mailto:hello@assortedtech.ca?subject=Work inquiry&body=Hello,'})} target='_blank' textDecoration='none'
               flex={1}
               fontSize={'sm'}
               rounded={'full'}
