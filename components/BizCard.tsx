@@ -26,7 +26,8 @@ export default function BizCard({ funFunction }: BizCardProps) {
         rounded={'lg'}
         p={6}
         textAlign={'center'}>
-        <Heading mt={4} fontSize={{base: 'lg', md:'3xl'}} fontWeight='black'>
+        <Text fontSize={{base: '4xl', md: '6xl'}}>🤹🏼</Text>
+        <Heading fontSize={{base: 'xl', md:'3xl'}} fontWeight='black'>
           Assorted Technologies Inc.
         </Heading>
         <Text fontWeight={600} color={'gray.500'} mb={4}>
@@ -88,7 +89,7 @@ export default function BizCard({ funFunction }: BizCardProps) {
           </Button> */}
             <Button
               as='a'
-              href='mailto:hello@assortedtech.xyz' target='_blank' textDecoration='none'
+              href={useBreakpointValue({base: 'sms:+14152739479&body=Hello, I\'m looking for help with...', md: 'mailto:hello@assortedtech.xyz?subject=Work inquiry&body=Hello,'})} target='_blank' textDecoration='none'
               flex={1}
               fontSize={'sm'}
               rounded={'full'}
@@ -104,7 +105,7 @@ export default function BizCard({ funFunction }: BizCardProps) {
                 bg: 'gray.500',
               }}
             >
-              Email Us
+              {useBreakpointValue({base:'Text Us', md: 'Email Us'})}
             </Button>
           </Stack>
         </Box>

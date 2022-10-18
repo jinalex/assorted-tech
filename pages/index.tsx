@@ -96,7 +96,7 @@ const Home: NextPage = () => {
       for (let i = 0; i < NoOfballs; i++) {
         radius = RandomIntNumber(10, 25);
         x = RandomIntNumber(radius, innerWidth - radius);
-        y = RandomIntNumber(radius, innerHeight - radius) - innerHeight;
+        y = RandomIntNumber(radius, innerHeight - radius) - innerHeight * RandomIntNumber(1, 1.5);
         dy = RandomIntNumber(-2, 2);
         dx = RandomIntNumber(-2, 2);
         color = RandomColor(colorArray);
@@ -123,6 +123,10 @@ const Home: NextPage = () => {
         <title>Assorted Technologies</title>
         <meta name="description" content="Information technology products and services" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <chakra.canvas position='absolute' ref={ref}></chakra.canvas>
       <Container maxW={'7xl'}>
@@ -131,7 +135,7 @@ const Home: NextPage = () => {
           spacing={{ base: 8, md: 10 }}
           py={{ base: 10, md: 28 }}
           direction='column'>
-          <BizCard funFunction={() => {setMoreBalls(moreBalls + 1)}} />
+          <BizCard funFunction={() => { setMoreBalls(moreBalls + 1) }} />
         </Stack>
       </Container>
     </>
