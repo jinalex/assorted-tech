@@ -38,13 +38,6 @@ export default function BizCard({ funFunction }: BizCardProps) {
           color={useColorModeValue('gray.700', 'gray.400')}
           px={3}>
           We craft content, build web projects, and grow traffic.</Text>
-        {/* <Text
-          textAlign={'center'}
-          color={useColorModeValue('gray.700', 'gray.400')}
-          px={3}>
-          <Link fontWeight='bold' textDecorationColor='red.500' href='mailto:hello@assortedtech.xyz'>Email us</Link> for work inquiries.
-        </Text> */}
-
 
         <Box mt={6}>
           <Text fontWeight={500} color='gray.800' mb={2}>Specialties:</Text>
