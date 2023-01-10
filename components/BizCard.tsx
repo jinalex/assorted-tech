@@ -37,7 +37,7 @@ export default function BizCard({ funFunction }: BizCardProps) {
           textAlign={'center'}
           color={useColorModeValue('gray.700', 'gray.400')}
           px={3}>
-          We craft content, build web projects, and grow traffic.</Text>
+          We grow traffic with content and streamline businesses operations with AI.</Text>
 
         <Box mt={6}>
           <Text fontWeight={500} color='gray.800' mb={2}>Specialties:</Text>
@@ -48,7 +48,7 @@ export default function BizCard({ funFunction }: BizCardProps) {
               bg={useColorModeValue('blue.50', 'blue.800')}
               color={'blue.800'}
               fontWeight={'500'}>
-              Content Strategy
+              AI Powered Workflows
             </Badge>
             <Badge
               px={2}
@@ -56,7 +56,7 @@ export default function BizCard({ funFunction }: BizCardProps) {
               bg={useColorModeValue('blue.50', 'blue.800')}
               color={'blue.800'}
               fontWeight={'500'}>
-              Programmatic SEO
+              Content and SEO
             </Badge>
             <Badge
               px={2}
